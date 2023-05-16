@@ -38,6 +38,8 @@ const job =jobData[1]
  		</div>
 
 		
+        <p className="text-2xl font-bold">Feature Jobs</p>
+        <p>Explore Thousand Of Job Opportunities World Wide</p>
 		</div>
 		
 			<FeaturedJobs data={job}/>
