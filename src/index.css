@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+ 
+}
+.btn{
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color:#E8E8E8;
+  }
+  
+  button {
+    background-color: #E8E8E8;
+  }
+}
+.navbar{
+  background-color: #E8E8E8;
+}
